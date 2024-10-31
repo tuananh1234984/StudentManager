@@ -1,0 +1,21 @@
+StudentManagementProject/
+│
+├── src/
+│   ├── Main.java                          // Lớp chính để chạy chương trình
+│   ├── menu/
+│   │   └── MenuQuanLy.java                // Lớp chứa giao diện menu điều khiển chương trình
+│   │
+│   ├── model/
+│   │   ├── SinhVien.java                  // Lớp đại diện cho thông tin sinh viên
+│   │   └── KhoaHoc.java                   // Lớp đại diện cho thông tin khóa học
+│   │
+│   ├── manager/
+│   │   ├── QuanLySinhVien.java            // Lớp quản lý sinh viên
+│   │   └── QuanLyKhoaHoc.java             // Lớp quản lý khóa học
+│
+├── data/
+│   ├── sinhvien_data.txt                  // File lưu trữ dữ liệu sinh viên
+│   └── khoahoc_data.txt                   // File lưu trữ dữ liệu khóa học
+│
+├── README.md                              // Hướng dẫn và mô tả dự án
+└── .gitignore                             // Cấu hình các file cần bỏ qua khi sử dụng Git
